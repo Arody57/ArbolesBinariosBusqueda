@@ -49,6 +49,7 @@ namespace Formulario
             this.button3 = new System.Windows.Forms.Button();
             this.warning = new System.Windows.Forms.Label();
             this.warning2 = new System.Windows.Forms.Label();
+            this.buscar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -202,9 +203,9 @@ namespace Formulario
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(640, 193);
+            this.button3.Location = new System.Drawing.Point(735, 194);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 20);
+            this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 17;
             this.button3.Text = "Eliminar";
             this.button3.UseVisualStyleBackColor = true;
@@ -228,11 +229,22 @@ namespace Formulario
             this.warning2.Size = new System.Drawing.Size(0, 13);
             this.warning2.TabIndex = 19;
             // 
+            // buscar
+            // 
+            this.buscar.Location = new System.Drawing.Point(607, 194);
+            this.buscar.Name = "buscar";
+            this.buscar.Size = new System.Drawing.Size(75, 23);
+            this.buscar.TabIndex = 20;
+            this.buscar.Text = "Buscar";
+            this.buscar.UseVisualStyleBackColor = true;
+            this.buscar.Click += new System.EventHandler(this.buscar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(918, 484);
+            this.Controls.Add(this.buscar);
             this.Controls.Add(this.warning2);
             this.Controls.Add(this.warning);
             this.Controls.Add(this.button3);
@@ -256,6 +268,7 @@ namespace Formulario
             this.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Name = "Form1";
             this.Text = " ";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -283,6 +296,7 @@ namespace Formulario
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label warning;
         private System.Windows.Forms.Label warning2;
+        private System.Windows.Forms.Button buscar;
     }
 }
 

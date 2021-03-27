@@ -36,11 +36,10 @@ namespace Formulario
             desarrollador.NombreDesarrollador = desarrolladorAsignado.Text;
             miArbol.insertar(desarrollador);
             limpiarTextBox();
-                warning.Text = "";
             }
             else
             {
-                warning.Text = "Todos los campos son obligatorios!";
+                MessageBox.Show("Todos los campos son obligatorios!");
             }
         }
         /// <summary>
@@ -106,11 +105,35 @@ namespace Formulario
             listBox1.Items.Clear();
             comboBox1.Text = String.Empty;
             buscarTarea.Clear();
-            warning2.Text = "";
             }
             else
             {
-                warning2.Text = "Ingrese nombre de la tarea";
+                MessageBox.Show("Ingrese nombre de la tarea");
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buscar_Click(object sender, EventArgs e)
+        {
+            if (!(buscarTarea.Text == ""))
+            {
+                EquipoDesarrollo desarrollador = new EquipoDesarrollo();
+                desarrollador.nombreTarea = buscarTarea.Text;
+
+                Nodo c1 = miArbol.buscar(desarrollador); 
+                    desarrollador = (EquipoDesarrollo)c1.dato;
+                
+                listBox1.Items.Clear();
+                listBox1.Items.Add(c1.dato.ToString());
+                comboBox1.Text = String.Empty;
+            }
+            else
+            {
+                MessageBox.Show("Ingrese nombre de la tarea");
             }
         }
     }

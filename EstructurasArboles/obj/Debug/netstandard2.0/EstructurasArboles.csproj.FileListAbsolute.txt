@@ -7,3 +7,12 @@ D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\Arboles\EstructurasArboles\
 D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\Arboles\EstructurasArboles\obj\Debug\netstandard2.0\EstructurasArboles.csproj.CoreCompileInputs.cache
 D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\Arboles\EstructurasArboles\obj\Debug\netstandard2.0\EstructurasArboles.dll
 D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\Arboles\EstructurasArboles\obj\Debug\netstandard2.0\EstructurasArboles.pdb
+D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\ArbolesBinariosBusqueda\EstructurasArboles\bin\Debug\netstandard2.0\EstructurasArboles.deps.json
+D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\ArbolesBinariosBusqueda\EstructurasArboles\bin\Debug\netstandard2.0\EstructurasArboles.dll
+D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\ArbolesBinariosBusqueda\EstructurasArboles\bin\Debug\netstandard2.0\EstructurasArboles.pdb
+D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\ArbolesBinariosBusqueda\EstructurasArboles\obj\Debug\netstandard2.0\EstructurasArboles.csprojAssemblyReference.cache
+D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\ArbolesBinariosBusqueda\EstructurasArboles\obj\Debug\netstandard2.0\EstructurasArboles.AssemblyInfoInputs.cache
+D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\ArbolesBinariosBusqueda\EstructurasArboles\obj\Debug\netstandard2.0\EstructurasArboles.AssemblyInfo.cs
+D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\ArbolesBinariosBusqueda\EstructurasArboles\obj\Debug\netstandard2.0\EstructurasArboles.csproj.CoreCompileInputs.cache
+D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\ArbolesBinariosBusqueda\EstructurasArboles\obj\Debug\netstandard2.0\EstructurasArboles.dll
+D:\UNIVERSIDAD\5to Semestre\Programacion lll\TreeABB\ArbolesBinariosBusqueda\EstructurasArboles\obj\Debug\netstandard2.0\EstructurasArboles.pdb

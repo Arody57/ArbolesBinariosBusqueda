@@ -24,7 +24,8 @@ namespace EstructurasArboles
 
         public bool igualQue(object q)
         {
-            throw new NotImplementedException();
+            EquipoDesarrollo equipoDrllo = (EquipoDesarrollo)q;
+            return nombreTarea.CompareTo(equipoDrllo.nombreTarea) == 0 ? true : false;
         }
 
         public bool menorQue(object q)

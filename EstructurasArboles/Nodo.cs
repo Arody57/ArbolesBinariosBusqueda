@@ -9,9 +9,9 @@ namespace EstructurasArboles
     
     public class Nodo
     {
-        protected Object dato;
-        protected Nodo izdo;
-        protected Nodo dcho;
+        public  Object dato;
+        public Nodo izdo;
+        public Nodo dcho;
 
         /// <summary>
         /// Método Constructor del nodo el cual recibe un valor y asign
